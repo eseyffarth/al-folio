@@ -3,6 +3,7 @@
  ******************************************************************************/
  
 :root {
+  --navbar-toggle-color: #{$grey-color-dark};
   --global-bg-color: #{$white-color};
   --global-text-color: #{$black-color};
   --global-theme-color: #{$purple-color};
@@ -23,6 +24,7 @@
 }
 
 html[data-theme='dark'] {
+  --navbar-toggle-color: #{$grey-color-light};
   --global-bg-color: #{$grey-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-theme-color: #{$cyan-color};
